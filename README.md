@@ -1,2 +1,0 @@
-# image-lightbox
-# withut container

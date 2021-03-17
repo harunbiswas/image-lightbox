@@ -21,62 +21,62 @@
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
-.image-item:nth-child(2),
-.image-item:nth-child(4),
-.image-item:nth-child(7),
-.image-item:nth-child(10),
-.image-item:nth-child(12),
-.image-item:nth-child(14)
+#custom-gellary .image-item:nth-child(2),
+#custom-gellary .image-item:nth-child(4),
+#custom-gellary .image-item:nth-child(7),
+#custom-gellary .image-item:nth-child(10),
+#custom-gellary .image-item:nth-child(12),
+#custom-gellary .image-item:nth-child(14)
 {
     grid-column-start: span 2;
     grid-row-start: span 1;
     height: 300px;
 }
-.image-item:nth-child(3),
-.image-item:nth-child(5),
-.image-item:nth-child(6),
-.image-item:nth-child(9),
-.image-item:nth-child(13),
-.image-item:nth-child(15)
+#custom-gellary .image-item:nth-child(3),
+#custom-gellary .image-item:nth-child(5),
+#custom-gellary .image-item:nth-child(6),
+#custom-gellary .image-item:nth-child(9),
+#custom-gellary .image-item:nth-child(13),
+#custom-gellary .image-item:nth-child(15)
 {
     grid-column-start: span 1;
     grid-row-start: span 1;
     height: 300px;
 }
-.image-item:nth-child(1),
-.image-item:nth-child(8),
-.image-item:nth-child(11) {
+#custom-gellary .image-item:nth-child(1),
+#custom-gellary .image-item:nth-child(8),
+#custom-gellary .image-item:nth-child(11) {
     grid-column-start: span 3;
     grid-row-start: span 2;
     height: 600px;
 }
 
 @media only screen and (max-width: 768px) {
-    .image-item:nth-child(2),
-    .image-item:nth-child(4),
-    .image-item:nth-child(7),
-    .image-item:nth-child(10),
-    .image-item:nth-child(12),
-    .image-item:nth-child(14)
+    #custom-gellary .image-item:nth-child(2),
+    #custom-gellary .image-item:nth-child(4),
+    #custom-gellary .image-item:nth-child(7),
+    #custom-gellary .image-item:nth-child(10),
+    #custom-gellary .image-item:nth-child(12),
+    #custom-gellary .image-item:nth-child(14)
     {
         grid-column-start: span 2;
         grid-row-start: span 1;
         height: 200px;
     }
-    .image-item:nth-child(3),
-    .image-item:nth-child(5),
-    .image-item:nth-child(6),
-    .image-item:nth-child(9),
-    .image-item:nth-child(13),
-    .image-item:nth-child(15)
+    #custom-gellary .image-item:nth-child(3),
+    #custom-gellary .image-item:nth-child(5),
+    #custom-gellary .image-item:nth-child(6),
+    #custom-gellary .image-item:nth-child(9),
+    #custom-gellary .image-item:nth-child(13),
+    #custom-gellary .image-item:nth-child(15)
     {
         grid-column-start: span 1;
         grid-row-start: span 1;
         height: 200px;
     }
-    .image-item:nth-child(1),
-    .image-item:nth-child(8),
-    .image-item:nth-child(11) {
+    #custom-gellary .image-item:nth-child(1),
+    #custom-gellary .image-item:nth-child(8),
+    #custom-gellary .image-item:nth-child(11) {
         grid-column-start: span 3;
         grid-row-start: span 2;
         height: 400px;
@@ -84,31 +84,31 @@
 }
 
 @media only screen and (max-width: 540px) {
-    .image-item:nth-child(2),
-    .image-item:nth-child(4),
-    .image-item:nth-child(7),
-    .image-item:nth-child(10),
-    .image-item:nth-child(12),
-    .image-item:nth-child(14)
+    #custom-gellary .image-item:nth-child(2),
+    #custom-gellary .image-item:nth-child(4),
+    #custom-gellary .image-item:nth-child(7),
+    #custom-gellary .image-item:nth-child(10),
+    #custom-gellary .image-item:nth-child(12),
+    #custom-gellary .image-item:nth-child(14)
     {
         grid-column-start: span 3;
         grid-row-start: span 1;
         height: 200px;
     }
-    .image-item:nth-child(3),
-    .image-item:nth-child(5),
-    .image-item:nth-child(6),
-    .image-item:nth-child(9),
-    .image-item:nth-child(13),
-    .image-item:nth-child(15)
+    #custom-gellary .image-item:nth-child(3),
+    #custom-gellary .image-item:nth-child(5),
+    #custom-gellary .image-item:nth-child(6),
+    #custom-gellary .image-item:nth-child(9),
+    #custom-gellary .image-item:nth-child(13),
+    #custom-gellary .image-item:nth-child(15)
     {
         grid-column-start: span 3;
         grid-row-start: span 1;
         height: 200px;
     }
-    .image-item:nth-child(1),
-    .image-item:nth-child(8),
-    .image-item:nth-child(11) {
+    #custom-gellary .image-item:nth-child(1),
+    #custom-gellary .image-item:nth-child(8),
+    #custom-gellary .image-item:nth-child(11) {
         grid-column-start: span 6;
         grid-row-start: span 2;
         height: 300px;

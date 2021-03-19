@@ -27,8 +27,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             // create slide object
             item = {
                 src: linkEl.getAttribute('href'),
-                w: parseInt(size[0], 12),
-                h: parseInt(size[1], 12)
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
             };
 
 
